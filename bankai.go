@@ -8,10 +8,6 @@ import (
 func main() {
 	text1 := "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMBY''''TWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM{          ?MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM@!            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
@@ -58,11 +54,6 @@ func main() {
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN-       .MMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN+      (MMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNm-...WMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
-		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
 		"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n"
 
 	text2 := "ltOOwV_dOltttttltllltlllllldf`  J0tttttlltltuV= .HSttlttttrtttrttrrttttttttttttttttttrtrtttttttttttrttttrttttttrttttttttttttttttttttlltltltltlltlllllllllllltltllllttlllllllllllllllllllllllltOrrrvzrrOt\n" +
@@ -84,35 +75,24 @@ func main() {
 		";;;;;<  .WWXz;;;;;<_.R+z;;;;;;`.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;>;;;;;;;>>>>>>>>>>>>>>>>>>>>>;>;;;;;>;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;:::::;:::::: _::;:::zl   ::::;<(WWl   ;:;;;;;;;;;;;;;\n" +
 		";;;;;< `.@HK<;;;;;~_J11v;;;;<` (;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;>;;;;>>;;;;;>>>;>>>>;;>;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;;;:::::::::::;:;:::::;:::. .::;:<1?:  .:::::(HHR   ~:::;;;;;;;;;>;\n" +
 		";;;;;~  (@@D;;:;;;_d:+lz::::`  <;::;:::;:;:::;;;;;;;:::;;;;;;;;;;;;;;;;;>;>>>>;;>;>;>;;>;;>;;;;;;;;;;;;;;;;;;;;;;;:;;;:;:;;::;;:;:;:::;::;:::;::::::::;::::::::<   ;:::j?<   :::::<H@H_  (::;:;;;;;;;;;;\n" +
-		":;;;;`  J@@f;;:::<.P.zt<::;`  (<::::;:<;:::::::::;;:;:::;:;;:;;:;:;;;;;;;>;;;;>;>;;;;>;>;;;;;;;;;;;;;;;;;::;;::;::;:::;::::;:::;:::::;:;::::;:::::;::::;<::::::<_  _:::(+=.  ::::::WgH_` (:::::::::;:;;;\n"
+		":;;;;`  J@@f;;:::<.P.zt<::;`  (<::::;:<;:::::::::;;:;:::;:;;:;;:;:;;;;;;;>;;;;>;>;;;;>;>;;;;;;;;;;;;;;;;;::;;::;::;:::;::::;:::;:::::;:;::::;:::::;::::;<::::::<_  _:::(+=.  ::::::WgH_` (:::::::::;:;;;\n" +
+		";;;;;~  (@@D;;:;;;_d:+lz::::`  <;::;:::;:;:::;;;;;;;:::;;;;;;;;;;;;;;;;;>;>>>>;;>;>;>;;>;;>;;;;;;;;;;;;;;;;;;;;;;;:;;;:;:;;::;;:;:;:::;::;:::;::::::::;::::::::<   ;:::j?<   :::::<H@H_  (::;:;;;;;;;;;;\n" +
+		":;;;;`  J@@f;;:::<.P.zt<::;`  (<::::;:<;:::::::::;;:;:::;:;;:;;:;:;;;;;;;>;;;;>;>;;;;>;>;;;;;;;;;;;;;;;;;::;;::;::;:::;::::;:::;:::::;:;::::;:::::;::::;<::::::<_  _:::(+=.  ::::::WgH_` (:::::::::;:;;;\n" +
+		";::::   d@@$;::::_  (wO<::_  (+::;:::~(:::::;;:::::::;:;:::::;;:::::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;:;::;::::;:;::;::::::::::::::::;::::::::::::::::::: ~:::::(;-  <::(zO-  _:::::d@g{`  :::::::::::;::\n" +
+		"::::<   W@gI:::::~  zXk<::` .<?:::::~ (:::::::::::::::::::;:;;:::::::;;;;;;;;;;;;;;;;;;;;;;;;:;;:::::::;::::::::::::::::::::::::::::::::::::::::::::::::_ ~::::(<+. .::(OXr` (:::::d@@[`  :::::::::::;;:\n" +
+		"::::<  .g@H<:::::   Xkk::_  (zv::::~  (:::::::::::::::::::::::::::::::;;;:;;;;:;;;;:;:;;;;:::;::;;::::::::::::::::::::::::::::::::::::::::::::::::::::::_  _::~(<+_  ::(dWR   ~~:::J@@L`  :::::::::::::;\n" +
+		"::::!  .g@H;:::::  .HHD::~  1z>:::~  .<::::<:::::::::::::::::::::::::::::;::::;:::::;;::::;:::::::::::::::::::::::::::::::::::::::::::::::::~:~::~:<:~:::.  ~:::+z{  :::dHH_  ::~::Jg@b`  ~~::::::::::::\n" +
+		"::~:~ `.g@#:::::_ `(gm$::~  zl>:~~  .(::::~~:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::~::::::::~::~::~::~_:~~(~.  ~::+tI  ~~:dgH;  ~~:~:(@@K`  _~::::::::::::\n" +
+		"~::~` `J@@#<:~:~~  jgg$:~_ .ww<::` .>+:~~` :~:::~:::~::::::::::::::::::::::::;:::::::::::::::::::::::::~:~:~:~::~:~~:::::::::~::~::~~::~~:~:::~::~:~ _::(__  .~~jwX. _:~J@@[ `_~:~~(@@H`  .:~:~~::::::::\n" +
+		":~~:` `J@@b<:~~:_  d@HI~:  (Wu<~~ `(zv:~~ .:~~~<~~:~:~~~:~::::::~:~::::::::::::::::::::::::::::~~:~~:~::~:~:~:~::~:~~~:~:~:~::~:~::~:~~::~:~~:~~~:~~. _:(<:_  :~(WW- .~:J@Mr` _~:~~(M@H_   ~:~~:~~~~::~:\n" +
+		"~:~~  .d@@b<::~~`  d@H>~~ `jHR<~_  jv>~~ .;~:~`~::~:~:::~::~:::~:~:~~:::::::::::::::::::::::~~:~::~:~~~:~:~:~:~~:::::~:~~:~:~~:~:~~::~::~::~:~:_ ~::<. ~:<<:  ~:(g@)  ~:J@@b`  ~~:~<H@@_`  ~:~:~:~::~~::\n" +
+		"~~:~   dgHD:~~~~  .W@H<~_  d@b:~~  dO>~` (<~:` :~:<~:~~:~:~:~~:~:~::~~:~::~::~::~::~::~::~:~::~:~~:~::~~:~~~:~:~~~~:~:~::~::~~::~:~~::~~~:~:<:~(  ~~<_ _~1+>  ~:(Hgr  ~:(@@b-  ~~~~~H@H{   ~~~~:~:~:~:~:\n"
 
 	fmt.Printf("%s", text1)
 	time.Sleep(1500 * time.Millisecond)
 	fmt.Printf("%s", text2)
 	time.Sleep(1200 * time.Millisecond)
 
-	fmt.Printf(";;;;;~  (@@D;;:;;;_d:+lz::::`  <;::;:::;:;:::;;;;;;;:::;;;;;;;;;;;;;;;;;>;>>>>;;>;>;>;;>;;>;;;;;;;;;;;;;;;;;;;;;;;:;;;:;:;;::;;:;:;:::;::;:::;::::::::;::::::::<   ;:::j?<   :::::<H@H_  (::;:;;;;;;;;;;\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf(":;;;;`  J@@f;;:::<.P.zt<::;`  (<::::;:<;:::::::::;;:;:::;:;;:;;:;:;;;;;;;>;;;;>;>;;;;>;>;;;;;;;;;;;;;;;;;::;;::;::;:::;::::;:::;:::::;:;::::;:::::;::::;<::::::<_  _:::(+=.  ::::::WgH_` (:::::::::;:;;;\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf(";::::   d@@$;::::_  (wO<::_  (+::;:::~(:::::;;:::::::;:;:::::;;:::::;:;;;;;;;;;;;;;;;;;;;;;;;;;;;:;;;:;::;::::;:;::;::::::::::::::::;::::::::::::::::::: ~:::::(;-  <::(zO-  _:::::d@g{`  :::::::::::;::\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("::::<   W@gI:::::~  zXk<::` .<?:::::~ (:::::::::::::::::::;:;;:::::::;;;;;;;;;;;;;;;;;;;;;;;;:;;:::::::;::::::::::::::::::::::::::::::::::::::::::::::::_ ~::::(<+. .::(OXr` (:::::d@@[`  :::::::::::;;:\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("::::<  .g@H<:::::   Xkk::_  (zv::::~  (:::::::::::::::::::::::::::::::;;;:;;;;:;;;;:;:;;;;:::;::;;::::::::::::::::::::::::::::::::::::::::::::::::::::::_  _::~(<+_  ::(dWR   ~~:::J@@L`  :::::::::::::;\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("::::!  .g@H;:::::  .HHD::~  1z>:::~  .<::::<:::::::::::::::::::::::::::::;::::;:::::;;::::;:::::::::::::::::::::::::::::::::::::::::::::::::~:~::~:<:~:::.  ~:::+z{  :::dHH_  ::~::Jg@b`  ~~::::::::::::\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("::~:~ `.g@#:::::_ `(gm$::~  zl>:~~  .(::::~~:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::~::::::::~::~::~::~_:~~(~.  ~::+tI  ~~:dgH;  ~~:~:(@@K`  _~::::::::::::\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("~::~` `J@@#<:~:~~  jgg$:~_ .ww<::` .>+:~~` :~:::~:::~::::::::::::::::::::::::;:::::::::::::::::::::::::~:~:~:~::~:~~:::::::::~::~::~~::~~:~:::~::~:~ _::(__  .~~jwX. _:~J@@[ `_~:~~(@@H`  .:~:~~::::::::\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf(":~~:` `J@@b<:~~:_  d@HI~:  (Wu<~~ `(zv:~~ .:~~~<~~:~:~~~:~::::::~:~::::::::::::::::::::::::::::~~:~~:~::~:~:~:~::~:~~~:~:~:~::~:~::~:~~::~:~~:~~~:~~. _:(<:_  :~(WW- .~:J@Mr` _~:~~(M@H_   ~:~~:~~~~::~:\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("~:~~  .d@@b<::~~`  d@H>~~ `jHR<~_  jv>~~ .;~:~`~::~:~:::~::~:::~:~:~~:::::::::::::::::::::::~~:~::~:~~~:~:~:~:~~:::::~:~~:~:~~:~:~~::~::~::~:~:_ ~::<. ~:<<:  ~:(g@)  ~:J@@b`  ~~:~<H@@_`  ~:~:~:~::~~::\n")
-	time.Sleep(20 * time.Millisecond)
-	fmt.Printf("~~:~   dgHD:~~~~  .W@H<~_  d@b:~~  dO>~` (<~:` :~:<~:~~:~:~:~~:~:~::~~:~::~::~::~::~::~::~:~::~:~~:~::~~:~~~:~:~~~~:~:~::~::~~::~:~~::~~~:~:<:~(  ~~<_ _~1+>  ~:(Hgr  ~:(@@b-  ~~~~~H@H{   ~~~~:~:~:~:~:\n")
-	time.Sleep(20 * time.Millisecond)
 	fmt.Printf("~~~_   Xg@P~~~~~` .@@H<~~  W@D~:_ .Xw<~ .+>:~ <~~~_:~~~~:~~~:~~:~~::~:~:~~:~:~~:~:~~:~:~:~~:~~:~~:~~:~:~~::~~::~:~~:~~:~:~~:~:~~::~~:~:~:~~:_~~(_ _~;(. :jzO. (~(W@P` ~~(@gH_  ~~~~:X@H}   ~~~~~~~~~:~:~\n")
 	time.Sleep(20 * time.Millisecond)
 	fmt.Printf("~~~_   W@@$~~:~~ `.g@H<~~ .g@D~~  (Wk<~ .z<_ (>~~ _~:(:~~~~:~:~~~:~~~:~:~:~:~:~:~~::~~:~::~:~:~~:~~~~~~~~~~~~:~~~::~:~:~~~:~~~~~~:~:~~~:_~~~_ :_;_ ~((~ ~(Xk-  ~(d@K  :~(@@M_  ~~~~(dM@r ` ~:~~:~~:~~~:~\n")
