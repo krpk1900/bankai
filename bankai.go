@@ -62,7 +62,7 @@ func main() {
 
 	// ここから分岐
 	rand.Seed(time.Now().UnixNano())
-	story_num := rand.Intn(3)
+	story_num := rand.Intn(4)
 	switch story_num {
 	case 0:
 		story0 := "ltOOwV_dOltttttltllltlllllldf`  J0tttttlltltuV= .HSttlttttrtttrttrrttttttttttttttttttrtrtttttttttttrttttrttttttrttttttttttttttttttttlltltltltlltlllllllllllltltllllttlllllllllllllllllllllllltOrrrvzrrOt\n" +
@@ -507,6 +507,160 @@ func main() {
 		fmt.Printf("    `                     `        `            MBXXtdMMMMMMMMMMMMMMMMMMMMMMMMMMMnMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMN<<+<+_i<<<<_   `               <_       `_(1?/?MMm.g.dMMN\n")
 		time.Sleep(20 * time.Millisecond)
 		fmt.Printf("                                               `dmIuMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM6<<<<1_(. ___                              ~<__?MMMMM#^MM\n")
+
+	case 3:
+		story3 := "NMMHH@@H@MHHH#MMMMMMMM@@HH@MMHHHMMHMMMMMm,.`  `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` ` ` ` ` ` ` ` ` ` .WI__~_`` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ``\n" +
+			"ggMMHMMMMMMHHHHmmmHHgMMHHH##MHHM####MMMM##MN, `  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `.Kv__:_ `  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `\n" +
+			"HWHHHWUWWWkkpfWXfpbppWWHHH@@gg@MMMHHMMMMHH@MMNJ ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `` `(0<__::_ ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `\n" +
+			"U0XvrrrtOOZVVXXX0XUUUUUUUWWWWHkHMM##MM#MMNM#MMMMe.  `` ` `` `` ` `` `` ` `` `` ` `` `` ` `` `` ` ` ` ` ` ` ` `  dI>~.::~ `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ``\n" +
+			"tttttttllll==llltttttrrrwXXXWWbpWHMMMM@@@MMNMMMMNN,`  `` ` ` ` ``  ` ` ``  ` ` ``  ` ` ``  ` `` ` ` ` ` ` ` ` `.HI>_.::~_   ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `  `\n" +
+			"lzzzz<<<<!`  `~??1zllllllllOOwXUUWWHqHHHHM@MMMHHMMNm,`  ` ` ` ` `` `` ` `` `` ` `` `` ` `` ``  ` ` ` ` ` ` ` ``(HO1< (:~_ ` `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `\n" +
+			"z?>>;<:~~_`` `` ``` ~?1l====llOtttZUWyWWHmMMHMMMMMH#HN,.``` `` ` `` ` `  `` ` `  `` ` `  `` ` ` ` ` ` ` ` ` `` dSI=: (:~~_``  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `\n" +
+			"O=<~<:~~_`` ` ` `  ````` _~??<<==lltOXXZXWHHHHHMM#MM##MN, `` ` `  ` `` ``  ` ``` ` ` ``` ` ` `` ` ` ` ` ` `   .W0z?<-(:_~_  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ``\n" +
+			"kZ< (:~_ ` ``....  `  ` ` `` ``` ?1=llOwXzXZyWbWHMM#MM#MMe.`  ``` `` ` `` ``  ` ` ` `  `` ` ` `  ` ` ` ` ` ```.NZ=??>>;:~~-` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `\n" +
+			"7S> ~~`    .dHHHMMMHHmg&J-.... ` ``-1llltOvzzXWfWWHHMMHMMMN,``` ``  ` `  `` `` ` `` ``  ` `` ` `` ` ` ` ` ` ` jNI???>>;;~~_  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ``\n" +
+			"`````` `.(HUZlz11??==zzOOOOTUUU9WWAa+JzllttrrXuXVyWfHMMMM@MMb. ` ` `` `` ` ` ` `` `` ``` ` ` ``  ` ` ` ` ` `  WHZz?>>>;::~~-` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` (7TT\n" +
+			" `  ` `.TCz11??>>???<<<<<<<!!!!!~~~~~___1tttttrwXWVypWkHM@MMMN,`  `` ` `` ` ` ` `  `  ` ` ` ` ` ` ` ` ` ` ` ` Tk0Ozz<<<~~~~ `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `  ...g\n" +
+			"` ` ` ` ....(;>>>;>;<---________~~~~~___`(OrOtrrrzXWfbbkHHMMMH@a.`  ... `` `` `` `` `` ` `` `` ``` ```` ... `` (WkOz_(<~~_ ` ```` ``` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ``` .dNN\n" +
+			"`` ``  `.~~~~~:::::::~~~~~~~:~~~_`   ``` ` ?OrtrrrXuXWbkqmH@HMMMMh.MNNNMNJ, ` `` ` `` ` `` .....(JgQWHHMMHHW,.`  7kz__<~```` .+HmHmmaJ-....  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `` .MNNMN\n" +
+			".(-`.. `  __~~~~~~~~~~___`    ` ``` `  ````  1OrrrrvXXWWHHHHMM##NMMMMNMNNMNMa.  ...(J&wWUU9UUUOOOOOz=?11zzlwXHa.` .!   ``  .d8VOOOOzzzOw0UUUWWWXA+J-....``  ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ````..JMH##NNN\n" +
+			"H0<_(<~_ ``  ___`   `` `` `` ` `  ` ``   ` ```.1rrOrrrwXUWpHHMMMMMNMMNMNNNMNNMx __~~~~!<<<<<<<<<<<<+???????1zOOU{``` ``` .VUOIz????????+1?<<<<<<<?<???777> ``   ` ` ` ` ` ` ` ` ` ` ` `` `..gM#NN#####NN\n" +
+			"VI<_(<~~_ ` `` ````` ` `  ` ` `` ` ` ``` `  ````_1ttttwAQQmNMNMNMMNNNNNMMMNMNNN/___~~~~______------(>;>>;>><....`  `  ` ` ____<>>>>>>>_....--..--------_-- `   ` ` ` ` ` ` ` ` ` ` ` `  .JM###NN##HH#H#H\n" +
+			"z??>><:~~_  ` `   ` ` ` `` ` ` `` ` `  ```````....gNMNMNNNNMNMNNNNNNNMNNNNMNN#HN. `   ___~~::::~:::<<::;:<<:~<~~``` `  `` <<<<<<;;:;;:::::::::~:~~~_`` ```` ``` ` ` ` ` ` `` `````` ..(HNNNN###HHHHHH###\n" +
+			"??>>;;::~_`` `` `` ` `` ` `` `` `` ``` ...JgMMMNNMMNMNNNNNNNNNNNNNNNMMNMNNMMNNM#N,`` ` ` ```  `____~~~~~~~~~__` ` ...      __~~~:~~~~~:~~___``   `  `  `` ` `  ``` ... ` `` `...JgH#########HHHHHHHHHHHH\n" +
+			"??>>;:<~~_` ` ` `` ` ` ` `  ` ` ..-+gM#NNNNNMNMMNMNNNNNNNNNNNNNNNNNNNMMMMNNNNNNN##m. ` `  `  `  ``     `____  `  .KI< ;_- ``  _~~___``  ``  ```  ` ` `  `  ` ` ` .M###NNHgJgMHHHHHHHHHHHHHHH@HHHHHHH@H@H\n" +
+			"???>;::~_` ` ` `  ` ````` ..JgM######NNNNNNNNNNN##NNNNNNNNNNNNNNNNNMNNMNNMNNNN####NN,`` `` `` ` ` ` `` `` `` ` .gH0I< ;~~_.``````` ` `  ` `  ` `` ` `` ` `` ```.M#NNNMNNNNN##HHHHHHHHHHHHHH@H@@@@H@@H@H@\n" +
+			"l?<-;:~~_  `` `` ```..(gMNMNNNN#N####NNNNNNNNNNNNNNNNNNNNNN#NNNNNNNNNNNNNNNNMNNNN#NNMe `` ` `` ` ` `  `  `  ``.KSOz?<<;::~_-   ` `  ` `` ` ``  ` ` `  ``` ` `..MNNNNNNNN#N#####HHHHHHHHHHHHHHHHH@H@@@@MM\n" +
+			"l=< ;:~_ ``   `..JNNNNMNNNNNNNNNNNNN##NNNNNNNNNNNNMNNNNNNNNNNN####NNNNNNNNNNNNMNNNNNN#N, ` ` ` ` ` `` `` `` ` dH0z??>>;::~~_` `  `` ` ` ` ` ` ` ` ` ` ``  .JHHHNNN#####################H#HHH@@@@H@@@@@Hm\n" +
+			"vz< ::~_ `` .JMNMMMMNNNNNNNMNNNNNNNNNNNNNNMNNNNNNNNNNNNNNNNN#H##NNNNNNNNNNNNNNNMNMNNNNNNm,`` `` ` `  ` `  `  `(M0=??>>;::~_  `` ` `` ` ` ` ` ` ` ````..+H#########HHHHH#####HHHHH#######H#HHHHH@@@H@@@@@\n" +
+			"z>~ ::~ .(N##NNNNNNNNNMNNNN####NNNNN#NNNNNNNNNNNNNNMNNNNNNN#HH##NN##NNMNNN##NNNNNNMNNNNNMNN,` `  ` `` ` `` `` .H0=??>;;:~~_` ` ` `  ` ` ` ` ` ``  ..gMH##N###HHHHH##HHHHHH###HHHHHHHHHHHHHHHHHHHHHH@@H@@\n" +
+			"I>_ :(gM#N#####NNNNNNNNNN#H###NNNN#######N#NNNNNNNNNNNNNN#HHH#######NNNNN##NN####NNNNNNNNNMMo``` ` ` ` `  ` `` dRz?<!<;:~_  ` ` ` ` `  ` ` ` ``..gMHMHNNN##HHHHHHHHHHHH@HHHHHHHHH@H@@@@@@@@gHMMM@H@H@@@H\n" +
+			"Z<(JMNNN##H##NNNNNN#N###HH###NNN##H#H####NNNNNNNNNNNNNNN#HHHH######NN##HH######H#NNNNNN##NMMNNJ.``  ` ` ``   ``JHt=>_(;:~_ ` ` ` ` ` `` ``  .+H@MM###NNN#HHHHHHHHHHH@@@H@HHHHHHHHHHHH@@@@gmmqqqkqHHH@@@@\n" +
+			"HHHHHH##H#NNNNN#HHHHHHHH#####H#HHHHHHH##NNNNNNNN##NNNNN#HHHHH#####N#HHHHHHHH##H##H##N######NMNNNN,``` `  ```  `.HZ=>_(:~~_  ` ` ` ` `` ` `.dNMMMM######HHHH@@@@@@@@@@@@@@H@HHHHHHHHHHH@@@ggmqkbppppHHHHH\n" +
+			"HHHHHH##NNNNN#HM@@@HHH####HHHHHHHHHH#NNMMNN#NNNNNNNNN##HH@HH###H###HHHHHHHHH#H##H#HHHHHH####NMMNNMNJ.```  ` `   WZ<<_(::_ ` ` ` ` ` ...JgMNMMM###HHHMM@@H@@@@@ggg@@@@@@@@H@@HHHHHHH@@@@H@@gHkkkbpfVyVpbb\n" +
+			"HHHHHH#NNNMMH@@@@HHHHH##MMHHHHHHH#H##NNN#H#NNNNNNNNNNHH@@HH##HH###HHMMH@H@HHH#HHHHHHHHH####NNNNNNMNMMNa, ```````dkz<_(::_` `````..gMM@MMMMMHMHHHMMMHmmmgggg@ggqkqgg@@@@@H@H@@@HH##HH@@@@@@@ggqWppffyyZXV\n" +
+			"H@HHHH#HHMM@g@@HHH#HHHHM@gH@@H#NN####NN#H#NNNN###NNN#H@H@HHHHHHHHHMHgggg@@@HH@@@@@HHHHHH###NNNNNNNNNMNMHMmJ,  ` (Kz<_(:~ ` ` .gHMHNMMHMHHMM#MMHHHkkbkkkkqqmmqkHpbkmgg@@@@@H@@@@@HHHHH@@@@@@gggqkbpfVyZuu\n" +
+			"g@@HHHHHM@gg@MH#####HM@ggmHMH#NN######NNNNNNMH###NNHH@@@H@@@@@@@@HkkkkqgmmmHHHkkHHggg@@@MMMM##NNNN##NNHHM#MMMNJ..WI<`_~_``.&MMmH@MHMMHHMHHMMHHWWWWVpppbpppppbppfpkqqmgmg@@@@@@@@@HH@H@@@@@ggmggmqHWWyZuz\n" +
+			"@HHHHH@@@@H@HHH####MH@gggHHHNNNNN####NNNMNN#HHH#N#HH@@@@@ggggggmqqqqqkkkkkkkkkkkkqqmggggggg@@H#NNNN###M@MM#MM#MMMMMMQaJ(+HHMHHMNNMMMWM@HMMHHWXuuuZZyWWWWZyZyWfffpkkkkbkHg@@@ggg@@@@@@@@gmgqkqkHgggmHWWXX\n" +
+			"HHHHH@@@g@@@H###N#MHMHm@@MM#NNN###H##NNMN#HHHH###H@@gg@HHmggggmqHHHHHWWWWWUUUUUWWHHqgggggmgg@@HHNNNN##NHHmHMMMMMMMMHMMMMMMMNMMMMMHWHMHMHHHWXuuzzzzzvwwwwzzuuuXWWbbbbbpbqgggmmqqmgmHH@@@@mmqWVWWHqmggmqHW\n" +
+			"HMM@@ggggHMM##N#MMMHqqHMMNNN####HH###NNN#HHH##H#HH@@gqHbbkqHqHHWUU0ZOOOOOzzllzzOOwZXUWHqqqmqqH@M#NNNNN#WWWppWHHMMMMHHMMMM@MMHMMHWWMHMMHHWUXvOOOOvzz11zzzzOOwzuuyVfppppkqg@@gmqkkkkkkHmmH@HmHfVVfpkkmggmH\n" +
+			"M@gmqmmHHH####HM@mmqqHMMNNN####HH###NNN#HHHHHHMM@HgqHpfffWWUUUZOz1=???>?>>>>>>>??1=zOwXWWWHqqq@HH######rwXWWWHMHHMMNMMMMMMHHMHHWM#HMHHUXvOOz1<>>;;;;;;;;>?1ztwXXyyVVfpkqggggmqkkkkkkbbkqH@gqWyyVfpbkqmgm\n" +
+			"MHHkkmHMH###MMMmmqqHHM#NNN###HHHHHHNNNNHHHHHHMMHqqbWWyyX0VOOI1?>>>>>;;>;>;>>>>>>>>??=lOrwXXWWHmH@HHHHHNrwXWWMMMMMMMMMMMHHMMHHHMHMMHHUzrOOz??>;;;;;:;;;;;;;>+1lOwXZZyVfpkqqqqkbpbkqkkkbppkmgmHfVyyVpppkqm\n" +
+			"HbpkHHHHHHHMMgggmqHHM#N#####HHH@HHHNNNMH@HH@MHHkbpWyZXXZOz1?>>>>;>>>>>>>>>>>>>>???????=zlOOwXWWHH@@HHHMmHHMMMMMHM#NMMHH@M@MMMMHMHHUwrrOl=?>>;;;;;;;;;;;;;;;>??zrwuuZyVffppkbppfpbkqqkkppbqmmqpVyyyyWfpWH\n" +
+			"ppWHH@HHHMMgggggHHMM####NN#HH@@HHHNNN#HH@@MHHWWWZZZZXwOI=?>>>>>>>>>?>>>>?????????????????=ztwuXWWHM@H#HMMMMHMMM#NM@HHHHH@M##HMMHW0vOOl=1?>;;;;;;;;;;:;;;;;>>??zrvuuuZZZyyfppfVyVpkmmmHbppkqmmHWZuXZZZWVW\n" +
+			"WHMHHH@@MHggmqqHHH#N#NNN##HHHHHH#NNN#HH@@HHpWZuuZZZXOO1?>>>>>>>>????????????????>?????????=ltrXXWWH@H##MMMMMHMMMMMHHHWgHMHHMMHWyXwOz=?>;>;;;;>>;;;;;;;;;>>?>>?ztvuuuuuZZyVfpfyyyVWqmgmqbpbqmgHWXzzzuuZZy\n" +
+			"mHHHH@@Mg@gHbpWHH#NNNN#HHHHHHHH#NNN#H@@MHHWWZuZZZXZO1??>>>>>>>>???????????????????????????=llrzuZVW@HHN#MM@MNMMHgmgHHgMHHMHHHWWUZOz??>;;;;>>>;>;;>;;;;>>>?>?>?=tvuZuZZuZZVppfVyyyfHmggqpppHqggHkXrvuuuZy\n" +
+			"HMHHH@@@@@HpWWHM#NNNNNHH@@@HH#####M@@@HHHWZZZZZZXOz??>>>>>>>?>???????????????????????=======ltvuZXW@H#NM@MMMMgHHHHHH@@MMHHWUXzwtO1?>>;;;;;>>>>>>>>?>>>>??>??>>?lrzZZZZZuyVfpfVyZZyWkmgqpWVfHg@HHWXvvzuuX\n" +
+			"HHH@@@@@HHHfWH@H#####HH@@@HHH####H@@HHHWyyyZZZXZI=???>>??>??>??>??????????==??????????======ltrwuXW@HH#M#MMHHHMHMHHHHHHWUXrrttlz1?>>;;;;;>>>>>????>?>>>>>?????=lrvuuuZuuZyyyyyyZZZWpbqkpVyyWHg@HkXuvvzzu\n" +
+			"HH@@@@gmHWyWH@H#HHHHH@Mg@HHHH##HH@MHHWZyyyyZZXOz??>??????>?>?????==========??=????????=======ltruZWH@HHM@@MMqmmHmHgHHW0wOOll===??>>;>>>>>>>>>>??>?>?>??>??????=lrvuuZuzzuZyZZyyyZZZWpkqkWyyWkg@gHWXXzvzu\n" +
+			"H@@@@gHHVWWH@HHMHHM@@@mg@HHH##H@@HHHfyyyVyuzZI1?>>>>?????????==========l========???????????==llrvXWH@H#MMMHHWWHggHHW0ZOll====???>>>>??>>>>>>>>>>>>>>>>>?>????=ltrzXZZuzzuZZZZyyyZuuZWHggHWZWWqggqHWXzrzz\n" +
+			"@@g@HHbfpbqH@@MH@MggmqgHHHHHMM@@HkbpVyVWZXZOz??>>>>???????====lllllllllll=====??>>>??????==1uyltrXkHWHHHMHWWX@gHHHWXOl=====????>>????>>>>>>>>>>>>>>>>>>??>??=ltrvXZyZuzvzuZZZyVyuuzuWH@@HHXZWWHgmkpyXrvv\n" +
+			"gmmHHWyVWHHH@ggggqqkkH@@@@HH@@qqkbbpVyXXXZO=?>>;>>??????==lllttttttttttltlll=??>?+??????zgkW0OQgMBXHMMMMWWWWHMHHW0ZOllll==???>>>>???>>>>>????>>?>??????????==ltrwZyyZuvrwuuZyyVyuzzuWH@HMHyuZWkqqbpyurrv\n" +
+			"qqkWWXZWHMH@@@gHbbkHH@@@H@@@gmkkppfVyXzzOI=?>>>>?????=lltttrrvzvrrrrrrrrrtl=????ugS?1udHHUXQHMM9XXM@HHWWXHHHMHHWXOtlll==??>>>>>>>?>>>>?>????>>>>>????=======lttvuZVfWuvrzuZyyVyZuvvuXH@@@HWuuXWkqkpyurrv\n" +
+			"kkpy0XXHMHH@gmHWfpHHHHHHHH@ggqpffffyZuzOv1>>;>>???=lltttrrrvzvvzzwzuwZOOl==???udMWAWHHMUXQHMHUXwdMMWXHWHHMMHHH0wttlll==???>>>>>>>>>????????>??????===ll====lttrruXppW0vvzZyVVVyZzrvXWH@@@HWZZyWkkbpWXrrr\n" +
+			"kHWSzXWMHHM@HkpffWMMN#HHM@@gqHfVfVyyZuZI?>;>>>>??=llttrrrrrrrvZ7<?!``._```./(dMHXXHMHWUXWMSw0rwWMHWHHMMHMHHW0Zttlll===?????>>>>>>???====??????=====lll====lltrrvXWpWXzvvXyVfffyZzrvZWH@@@HWZZyfppbpWXrrv\n" +
+			"pWXuXWM##MHHHfVVWHMNN#M@@gmqHWVfVyZZuZIz>;>>>>???=ltrrrrrttv`````` `.R  .(HWMMWHHggHWQXd#WXrwWHgHWHWXMHHHUXwtllll=====??????>>>>?==lllll=======l=llll==?=lttrrwXXWWXvrrvXypppfyuzrvuWH@@@HWuuuWpbkbWWzrv\n" +
+			"WXuXWM##MHqbpyyWHMNN#MM@gmqHWyVyyuuzOlz>>>>???=zztrvvvrrtv!(` `  J`.HS (MHWHHHMMWWHXWNMMWWgMMMMSWWMXHyWUXrtlll==========???????===lllllltlllll==l=1=????lltrrvXWbkWzrrrwXfkkbpyuzrvXWH@@gHSwrzXWkqqbWXrr\n" +
+			"zXXWM##MMHpWVyyWM#N#MHmmHHHWyyyZZXrO!` !<??==lltOrrOttv<!``c``  (@.MHXdMHWHWHHHWWNmNMMMMMMMNMNggHMHXWWHwttll======?======l=ll==l=llllllll====????>>>>>?=lttrruXpkHSrrrruypqkbpyuvvzXWH@@gHXzrzZWHggkWXrr\n" +
+			"zXWHHHMMHpVyZZWHHNNM@gHkHWXZZZZXzwZ!`````(llttttv<! ```` ` $ ``.#(dMWWMHH@HWWWWmWMMMMMMMNMMMMMM#WXHXMMStll==========ltOtttttlll====l===?????>>>;;>;;>>1lttrrwXWkqHXvrtvuypbpWWXuzrzXpH@@gHuzrzZWH@gmWXrr\n" +
+			"uXHHHH@mkpyZZXWMH#HMgHHWWuzuuZuXrZ``   ``.ltOtv! `` `  ``..t ..MbdHpMMMBXHWWNWKWMMMWYMWWMHMHMMMMmHWMMHI=lzgk1====lltrrrrtOl===?????>>>>>>>>>;;;;;>>>>1lrrrvwXWkqqWXrttwXfbpyyuzzvvwZWH@@mHXrrvZWH@gmHXrr\n" +
+			"uXHHHHMmHWyZXWHHHHMgqHWXuuzzuuurv   `` ` ???` `` ` ` `` .[.t.ldNWHHMMHWXWWMMHKWMHKkzgx<(<<XM#MMMHWHMHSggMM9<<<<:`_??1zz11????>>>>>;;;;;;>>>>;>;>>>>?1ltrrvuXWbqqHSvrrrwWkqHWuwrrrvXXWH@gqWwrrvXWH@@HWwrr\n" +
+			"uXMHH@gHWWZXWHMHHHMHHWZuuzvzzzZ>  ` ` ``` ``  `  `` ` .`(@JldJqWHMMgHHXHHMHHHNXMXmkWMHNmHNk+WVqMHWHHWHHH6^` .(K_` ```(>;;;;;;>;;;>;>;>>;>>>>>>>????=ltrrvzXXpqmgHXrrrwXkqqHSuvrrrwXWHM@HHSvrtwXWH@@HWwrr\n" +
+			"CWHHMMHbWyXWHMHHHMHHVXuuzvzvwZ!``  ``` ``` ........(+gWNMHMNWHHWHWHMHWHHWwXWWHMHHSOSWZ9MUS1J<1WWHXXwwwZX+JXWHS!`` ` (:;;;;>>>?????????11=zzzzzzzOllztrrwXXWbkmHHSzvrwXWkqHWuzvrrwXWHHHHMHSvrrwXWHHHHWCrr\n" +
+			"(M#MMHHpyWWHHH#N#MHpyXzzzvvvC` ``   ...+HMHHH#NN#HHMM#HMMWHHXWWXXMMWuWX0wUXdMNHH0QkdMNMMMMHRuWH9ZwmyXWHWWHH9Z>``` .+++++11z==zzllllllv!``` _~??<!`(trrwXyWWqqgHWrzzwXWbkbWXuuzrwuWHMH#HMWXrrrwWHMHH@K(rr\n" +
+			"(H#MHHVVWHHHHHN#HMHpVuzzzvZ>..(+gHHHHHMMHM#NNNN###MMMMMMmWWHdHwWMMSWXHZwXWgHMMMXgMSOdHMMMM8dMWVGdM#TOHWHkk0wdMNmgJ-..._?1zI<!```````````   ` ``` .lrrwZZVWqmgHH0ruXXWkqqkyZZZuzuZWHH##MH1zvvwXWHHHMH3Otr\n"
+
+		fmt.Printf("%s", story3)
+		time.Sleep(1200 * time.Millisecond)
+
+		fmt.Printf("dHHMHWyWHMM#HHNHMHbpVXzzvAHMMMM@@@H@HMHMMMHHHHHHHHMHHMMHHWmHXRwXMSwXUQWWNHHMMNMMMHdNg!.V9GdH9wdM=   _(WHH9OWMHHMH@HMMMMMNgJ..``  `` `  ` `` ` `  (rrwZZWWmggHHSzwXXWqmmmHyZZZuZZXWHH#MM$(vzXXWHHHHH$(rtr\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHMWZXWHH#HH##MHHpfX0vrdHMHMMMM@MM@@@MM@@@@@MHHHHHHYWkZWWWXHWWWSwXkHHMHHMM####HMHMNM; 4dMHSgN#'     ._??!!~` _?TMMMHMMMNMMM#Nm..` ```` ` `  ```.twwXZWHH@HHWXXvuZWHgggHWZZZZZyfWHMHHMK(XvXXWHM#HMK(rrrr\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHWuuWMHN##H#MHWWZuwwdMMH@@MMMMHMggmHHHHHHHUUXMMMMMNdWHHkXHSXfXHMM8XXHWHWHHHHHHHMNMb` 7!dNMMF   ``              ?WMHH@MMMM@MMHNHaJ.. ` ` `  `.zwXyyVWg@@HWXXvvuXWH@gHWXuzuuZVWHMHH@H:yrwXWHH##MH>jtrrw\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("H@MHSuXMHM####MMWXuzvwdMMHHgHHHmqqHHWWWWXXXuvwWMMMNMMNMWKWXdkwX0XU0wXUW0OttGgYMNfwXMM@ ` `,NMM>   ``._``.,``  ` ``` _vHMMMHMMM#MMMMMHMHmJ.` ``.zwwyWfpWHMHWSZtrrXWH@@@HSzrrrvXWbHHHMHl(wvXWHHHHMMt.lrrwX\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("@gHWXzXgmMHH##MHSzrrtdWWWWWWWWWUUUUUUXXzzwwrtzOOOZz?MN#9XWWBXHkXzvw0qIdMNsQgdMMMNMNAH# `` .NMN.  ` (M-.d#`...,   ..WHgkWWHHHMM@HgMMMMMNMHMNJ..zwXWWbWqmmH@JwttrwXWH@@HWZXrrrwXWqgMMH=.zwXWpH@HH@D (trwXW\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("@HHZXwHHHMH##MMHXrrtwXuZuuuuzvvrwwwZtttrrrttttlllWc1lvCC(XXkk9WHHSwWHNMMMMNMMMMMMNMMH'`  .MMNMs.  .HWhOdBvWMn-J&XWMNMMMKY9wmWWHHHHMHgH@MMH#HHSwXWHqmgmHW= tttwwXWH@HH$ZXwttvXWHggHK' JwXWpHg@@M#` jtwXWH\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHXXwXpfHH##HMHSwtltrvvvrrtttrrrttttttOttttttttttzO+<><j<WMMNkWSXUWMMMMMMMMMMNMSqMB^` .. ,MMMMMNs..Rv0OZ0dUXHMMHMNMMMMMMMMM^SWVyyfWHHmHg@HHHSXWHH@@@H8! `.ltwXXWH@HMK(XzrttwXW@@HK!`(rwXpHmggg8!` trwXpk\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HSvOwUuXWMHHMHH0rtOrrrrttllllllllll===lllllttwewo+(zX+<j+UVZYudkkHMMMMMNMMMMMMMM#'``` ?GeJMMMMMMMHM0uwC?1OXXHdHNMMMMMMMMMMMMHdUZXXXXkWWHHgHSXWH@@@@gHMm,.(lwXXWH@HMH!JuzvrwXWqgHK``.OwXWHmgmHY ` .tvuypp\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("H0rOOOOOW@@@HHSwrOllOlttlll=l===1<<<<<<<<<!~` ___(+zOywVI+<` ````-?TMNMMMMWMMMMNb` `` ..JSzMNMNMBCud9Cj&ggNMNMMMMMMMMMMMNNMMMMHgNN+dSgMMNHkXWmHH@@@gHHmHM0OwyWHHH@#!.wuvzXXWkqqf`  (wXWHH@gK^` ``.truXWk\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HXOv1==zX@HMHWuvZ!!!!!~~`` `````` `` `` ```` ``  .CugY<(I++-. `` ```.WMNWbH@MMMNM_` .HBM}`(MMMM#HWqMMMMMMMMMMMMMMMMMMMNHMQNMMMMMMMNMMMb.dMHUTAQWWHqHMHHMNrwuXW@HHM>`(XvzXWpkHHf`` .wXWH@MHY ` ` `.rwXWqH\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HXC<<<<<q@@gHXvO: ````` `` `   ` `  `  ` `  ` `.c<dB><_dXZ<<1T{`  `   MNkWHMMMMND`  ?D   ` `(z?WMNMMMMMMMMMMMMMMMMMMMHNMMMMMMMMMMMMMMMM#Y+JXHHMBUWWWHkqH8wZXWH@@MHNmwuuXXpkkkf ` `.XpkmHY!`  ` ` .wXWmK!\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HZ` ````,@@HWuvv `   ` ` `` ``  ` `` `` ` ` ``  (uZv<:(<1:` `  `` ` ``?WNMMMMMD` .      ` ``dD   7MNHMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMHWQNNMMBUtrrrrzXXVWXwZWWH@@@@HHHWWyWWqqkHJJ...dWkq9!`` `` ```(XWg#!`\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("W!` ` ``.H@HSzO!` ` ` ` `  ` ``` `` `` ` `` ``.dX6!`__` _: ` `` ` `` ``` ``  ` .    `  `  ` ``     7MNkHHkkWNMMMMMMMMMMMMMMMMMNMMMNMM9C1====lllllOOrrXX0wXWg@@HHHHHHppWHggqHHgHgMMHqHNma-.. ```  dWqY```\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("t``  ` ` W@HXz>` ` ` `` ` ``   `  `  ` ` ` ` .SXC```-```` `` ` ` ` ````      .    ``   `   ```       TMNNNMMMMMMMMMMMMMMMMMMMMMMB^!`~!<1?=?========llOrwXWH@@HWWpWkfpbHgggHM@H@@HmHHMMHMMNNNMMNmsVWm+J++\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("}``````` dHWX> `````````````````````   ``` .Jd9!````````````````` `        .    ` `   `      ``      `  ?TMMNMMNMMMMMMMMMMMNM^!` ``````` ~?<<??===??=1wWWg@H9OwXXWWWWH@@@gHMMMMMHHMHMMMMMMMMM#MMQMMMMHgg\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf(">________(W0>____________________.________(WW$~...-...`..`......         .           `  ` ` `  `       ` ` TMMNMMMMMMMMNMM#^``````````.````.`._<<?1=zdWHH@H6==zOrwWkqg@HWWHHHMMMHM@@H@MH@@@MHHMMMMM#####\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("<<<:;:;:;<O>:(:::::::(::::(((:::::::;:<((dQBC:_~~~~~~~~~~~~~.._ `       _       `      ` ```    ``        ` .TMNNNMHMNMN#'._.........~..~.~....... -(WqH@B1???==ldbqmH9wwzzuUWWWHMM@@@gmHHHHHHHMHHHqHMMM\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("?????????>>?>>>>>?????????????????????++wd81<<<;;<<::::~:~~~~~                 ``   `  `   `  ` ```    `     ` ?TWMMMMB>~~~~~~~~~~~::~::_::::_~~~_-jHHgH3_<<<?==1dpqBVttttttOOZXXXXUWHHHWWWfffVWWWHHkkqk\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("lllllll=========l=l=llllll=l==llzllzlzdQM0zzzzzzzzz??>;;;;:::~     ` .        ``   `  `     `  ` ` ``` `        _~:~~~~~~~~~~~~:::::;;;;;>;;>><<<+dmgH9<::::~:~<zWW01z=llllttttttttlttOwrwXXyyyyZZXUUUWW\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("rrtrrrwrttttttrrrrwrwrrrrOOOOwwwwwwwQHHBwwwwwwwwwwOl=??>>>;<`                ``   `  `   `  `     ```  `  `        ~::::~:~::::<;;>>>??===zzzzzzzdHH91??>>;;;;;;df><<1=======llllllllllltOOrwwZVVZOrrtOO\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("vvzzuuuuzvrrrrzuuuuuZZuuuuuuXZZyZWXXNMSwWyyyyyZZZ0wtl????>:`            ``  ``  ``   `  `  `  `  `  ``    `    .     ~::::;;;>>>?>??=lttrwwwXXZXX0rtttllz====1??C??>>>>>????1===l==llllltttttttttllllll=\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("zzuuuZZuuzvvvzuuZyVyVyyyyyVVVVVVVWXWBwWfpfpVyZXwOOl=????>!`           .    ``  ``   `   `  ` ` `  `    `   ` `        _<<;>>?????=zztwwwXXWWpfyZuuzzvvrrrrOOrOtll===========?++>><11lllllltllllll=======\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("uuuuZyyyZuzzzuZyWppbpbbppppppWpKWHHSwppbbbpfWXzrO=???>><!``     .        ```  ``   `    `` ` `       `   `    `         +???===zlOOwwXXWWHkkpWyZuuuuuuuuuZZuuzrrttttttttlllll===???>?+?==zzzll=l=ll=l===\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("ZZZZyVVyyuuzzuZfbkkkkkkkkkkkkbKwQHXXkkkqqqqkWWXtl=?>>><``               ``   `  ` .-.  ._~~_.  ``   `     ``    .    . -+=zlzOOOwwXXWWHqqHHWWZZuuZuZZZyXWVyZuuvrrrrrrrrrrrrttttlll==lzltzll=======zlttzz\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("yZZyVfppVyuuuuyWkmmmmmmqqqqqkSzdSQHqmmmmmmHHUXrtlzz1??1-               ``  .(+-..(;;;;::::::~:_ ``   ``     `         .(OwwwwXXXXWWWqqHHWWXuuuuZZZyyWWWbbpVyuuzvvvvzzuuzuuzzvrrrttrrrwvzvrttttttrrrwzzzz\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("ffVVfpbkWWyZZZyWqgggggggggmHWWHXXmggggggHH0XrrwwXkkwOzz `     ` `   ``.(????????>>>>;;;;;;::::;_. `   `       `    .    zXyVVVfWWHqqHWUUuzzuuZyVffWWHmmqbpyyZZuuuuZZyZyyZZZuuzzzzzuXXZZuuzvrrvvwXXZXyyXZ\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HWpppkqgmHpWVVfWm@@HHHHH@HMHWBQH@@H@@MHH0XvrwXWHHHHkkks    ..        (>?>???????????????+>++>;;;;;<-   `   `   `    .  .WkbppbWHmmqHWuzzzuXXXWWWHHHH@gmHpVyyyZZyyWfWppffVyZZuuuZZyXWVVyZuuuuuZXXVWWWpppp\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("Hmkkqm@@@HHHkbkqg@HHHHHHMNMH8dHHH#HMMHUXzwXXHM###HH@@HHa, ..  ` ..--(>>>??=zzzywwwwwwwwwwwwwwzzz1???<.-(-. ``    `   ..WHmqqHgH@@mHfZuuXXXWWHHgHH@H@@gkpfVyyyVWpbkqqkbbpffVyVVWWWWkkbpfVyyXWWWWWHHqmmmqk\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("H@@gg@@HHH@H@ggg@@HHHHHMWHMXdH#HMMMHUXzwXWMH###HHMMHVXMMK<--(::(;;>>+1zzwwwXWWHHHH@HHHHHHHHHHkkkwwOOzz??=?-..``    `  `JH@@@@@@@@mkpfWWWWHH@@@HHHHH@MmbpffpppbHmg@gmqqkkkbbbkWHHggggqqkbbWHqmmggggggggmq\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HH@@@HHHHHHH@@@@@@HHHHBrd8QMHHMMHWUwvwXWMH#HHHHHMHH0dHkf<::;;><++zzzwwXWWHgg@@@H@@@@H@@@@@@@@gggHHkkkkwwOzz=??<-  ``   g@@@H@H@@@mqqqqHg@@@HHHHHHHMMmqkbkkkHmHHM@@@@gmggg@@@@@@@@@@@gggg@@@g@ggggggggggg\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHHHHHHHHHH@@@@@@@MHWd8d@MHHHUVrwwXWHHHH@H@@@@gHWN#96<<++zzwwwwXXWWWHmgg@@g@@g@@@gg@@@gggggggg@gggqHHWkkkwzz?><.  ``.KH@@@@@@@@gggg@@@@HH@H@@@@ggmqqqqmH@HHHHHHHH@@@@HMHHHHHHHHHH@@H@@@@@@@@@@@@g@g@@@\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHHHH@H@H@@H@@@@MHWNM0XgHHUUZtwwXH@@@@@@@@@@@gmqkAAwwwwwXWWWWWWHHgggg@gg@@g@gg@gg@ggggggmgmgggggggggggmHHWkkwz+<_(zQNMkHg@@@@@@@g@@@@@@H@@@@@@ggmmgHgHMHHHH####HHHHH#H###H#H##HHHHHHH#HHHHHHHH@@H@@@@@\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHH@H@H@@@@@@@@@@HXH#wHHHUVttwwWH@@@@H@@@@@@@@@gggHHHHHHggmgH@@@@@@@@@H@@HH@@H@@@@@@@@@@@@@@@@H@@HH@HHH@H@MHHHkOz<:>WMMMNZMHHHHHHHHHHHH#HH##HHHM@@HHH###NNNNNNNNNNNNNNNNNNN####NNNNNNNNNNN####H#HH####H\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHHHHHHHHHHH@H@HXW8dHW0ZtOwXWHHH@HHH#HH#HHHH@M@@@@@@@@@@HHHHHHHHHHHHHHHHHHHHHHHHH@H@@@@HHHHHHHHHHHHHHHHHHHHHMHkkz+;zQmWHdNMHHHHH###########HHH#H#H####N#N#NNNNMNNMNNNNNNNNNNNNNNNNNNNNNNNNNN#NN####NNN\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHHHHHHHHHHHH@HNSZdH0wtwwWMM######NNNNNNNN######HHHHH###H######NNNNNNNNN####HHHHHHHHHHHHHHHH###############H#MMHkkwzZTMNdMdH########H#H#HHH#H####H#####NNNNMNMMMMMMMMMMNMNNNNMNNNMNNNMNNNNNNNNNNNNNNNN\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("#HHHHHHHHHH@HHHHMHGW0XrwXHMNNNNNNMNMMNMMNMNNNN########N##NN#NNNNNNNNNNNNNNNNN#####HHHHHHHHHHH####NNNNNNNNN#######HMMHkkkAJGJHH##################H######NNNNMNMMMMMMMMMMMMMMMMMMMMMMNMMMMMNMNNMNNNNNNNMNM\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("###HHHHHHHHHHHHHMHHWXXWMMMMMMMMMMMMMMMNMMNMNNN###########NNNNNNNNNNNNNNNNNNN#######HHHHHHHH####NNNMNNMMNMMNMNMNNNNNMMMMMMMMMNNNNNMNNMMNMMNMNNNNNNNNNNNNNMNMMMMMMMMMMMMMMMMMMMMNMNMMMMMMMMMMMMMNMMMMMMMMM\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("####H#HHHHHHHHH#WHWWHM#NNNNNNNNNNNNNNNNNN#N###HHHHHHHH######NNNNNNNNNN#####H##H#HHHHHHHHHHHHH###NNNMMNMMMMMMMMMMMMMMMMMNMMNMMMMMMMMMMMMMNMMNMNNNNNNNNNNNNMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMNMMMMMMMM\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("N#N###########MHHMM###NNNNN##########H##HHHHHHHHHHHHHHHHHH###############HHHHH#HHHHHHHHHHHHHHHH###NNNNNNNNNNMNNMNMNNNNNNNNNMNNNNNNNNNNNNNNNNNNN####H######NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("###############################HHHHHHHHHHHHHHHH@H@HHHHHHHH#H###########HHHHHHHHHHHHHHHHHHHHHHHHHH#####N#NNNNNNNNNNNNNNNNNNNNNNNNNNNN##N###H##HHHHHHHHHHHHHH######NN##N###########NNN#NN######H##H##H####\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("H#HHHHHHHHHHHHH#####H#HHHHHHHHHHHHHHH@H@H@@@@@@@@@@@@@@HHHHHHHHHHHHHHHHHHHHHHHHH@HH@H@@H@@HHHHHHHHHHHH##H########H##################HHHHHHHH@@H@@@@@@@@@@HH@HHHHHHHHHHHHHHHHHHHH##H#H####HH#HH#HH#HH#HHH\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHH@HH@HHHHHHHHHHHHHHHHH@@@@@@@@@@@@@@@@@@@@@@@ggg@g@@@@@@H@HHH@HH@H@H@@@@@@@@@@@@@@@@@@@@@@@@@@@H@HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH@H@@@@@@@@@@@gggg@@@@@@@@@@@@H@@@H@H@HH@HHHHHHHHHHHHHHHHHHHHHHHHHHH\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("@@@@@@H@@@@HH@H@HH@HH@HH@H@@@@@@@@@@@@@@@@@@@@@gg@g@@@@@@@HH@HHHHHHHHHHH@H@@@@H@@H@HH@HH@@@@@@H@HHH@HH@HHHHHHHHHHHHHH@HHH@@@@H@@@@H@@H@H@@@@@@@@@ggg@g@@@@@@@@@H@@H@@H@HH@@HHHH@HHHHHHHHHHHHHHHHHHHHHHHH\n")
+		time.Sleep(20 * time.Millisecond)
+		fmt.Printf("HHHHHHHHHHHHHHHHHH#HH#HH##HHHHHHHHHHHHHHHHHHHHHHHHHHHHH###############NNNNNNNN#N#########NNN########HH#HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH@H@HHHH@H@@@@@@@@@@HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH#HHHHHHHHHHHH\n")
+		time.Sleep(20 * time.Millisecond)
 	}
 
 	text3 := "																																																																																																		 \n" +
